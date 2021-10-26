@@ -1,7 +1,7 @@
 -- Create a database
 -- DROP DATABASE IF EXISTS haxudb;
-CREATE DATABASE haxudb;
-USE haxudb;
+-- CREATE DATABASE haxudb;
+-- USE haxudb;
 
 -- Create a table and insert rows
 DROP TABLE IF EXISTS inventory;
