@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS inventory;
 CREATE TABLE inventory (id serial PRIMARY KEY, name VARCHAR(50), quantity INTEGER);
 INSERT INTO inventory (name, quantity) VALUES ('banana', 250);
 INSERT INTO inventory (name, quantity) VALUES ('orange', 150);
-INSERT INTO inventory (name, quantity) VALUES ('apple', 100);
+INSERT INTO inventory (name, quantity) VALUES ('apple', 110);
 
 -- Read
 SELECT * FROM inventory;
